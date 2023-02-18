@@ -1,8 +1,27 @@
-<p>header works!</p>
-<nav>
+<mat-toolbar color="primary" class="header">
+  <img src="../../../assets/logo.png" alt=" Marvel Logos" class="logo"/>
+  <div class="container_buttons" *ngIf="false">
+    <button
+      mat-icon-button
+      class="example-icon favorite-icon"
+      aria-label="Example icon-button with heart icon"
+    >
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon>share</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+
+<!-- <nav>
   <ul>
     <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Main</a></li>
     <li><a routerLink="/thumbs" routerLinkActive="active" ariaCurrentWhenActive="page">Thumbs</a></li>
     <li><a routerLink="/detail" routerLinkActive="active" ariaCurrentWhenActive="page">Detail</a></li>
   </ul>
-</nav>
+</nav> -->

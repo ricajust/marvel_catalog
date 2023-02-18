@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabbar.component.less']
 })
 export class TabbarComponent implements OnInit {
-
+  public icons:Array<any> = [
+    { iconName: 'badge', iconText: 'characters' },
+    { iconName: 'history_edu', iconText: 'comics' },
+    { iconName: 'link', iconText: 'series' },
+    { iconName: 'auto_stories', iconText: 'stories' },
+    { iconName: 'emoji_objects', iconText: 'creators' }
+  ];
   constructor() { }
 
   ngOnInit(): void {

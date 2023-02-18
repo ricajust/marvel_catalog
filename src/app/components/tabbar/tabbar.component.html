@@ -1,1 +1,5 @@
-<p>tabbar works!</p>
+<nav class="tabbar_container">
+  <ul>
+    <li *ngFor="let icon of icons"><app-icon-tabbar [icon]="icon"></app-icon-tabbar></li>
+  </ul>
+</nav>
